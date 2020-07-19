@@ -44,23 +44,23 @@ export const About: React.FunctionComponent = () => {
         strong interest in user-centered UI design. I also care a lot about
         making tech a more inclusive and welcoming space. In my free time, I
         enjoy cross stitching, roller skating, and spoiling my dog,{" "}
-        <a
+        <span
           onClick={() => {
             setLadyOpen(true);
           }}
           className={classes.linkText}
         >
           Lady Bird
-        </a>
+        </span>
         , and my chinchilla,{" "}
-        <a
+        <span
           onClick={() => {
             setZiggyOpen(true);
           }}
           className={classes.linkText}
         >
           Ziggy
-        </a>{" "}
+        </span>{" "}
         to an absolutely unhealthy extent. In the time before covid-19, I might
         have said I enjoyed travel, and didn't do it nearly enough. If you'd
         like to collaborate (or conspire, mwahaha) with me on something, check out my contact info
