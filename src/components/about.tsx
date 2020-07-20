@@ -8,10 +8,11 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       textAlign: "center",
-      padding: "10px"
+      padding: "15px"
     },
     header: {
       marginBottom: "7px",
+      marginTop: "0",
       fontSize: "36px"
     },
     ptext: {
@@ -21,6 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
     linkText: {
       cursor: "pointer",
       color: "#8383b4",
+      textDecoration: "none",
       "&:hover": {
         textDecoration: "underline"
       }
@@ -34,10 +36,10 @@ export const About: React.FunctionComponent = () => {
   const [ladyOpen, setLadyOpen] = React.useState<boolean>(false);
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id={"about-section"}>
       <h1 className={classes.header}>About Me</h1>
       <p className={classes.ptext}>
-        I'm your local, friendly Brooklyner who happens to be a software
+        I'm your local friendly Brooklyner who happens to be a software
         engineer. I attended CUNY Brooklyn College and graduated in 2018 with a
         degree in Computer Science, and I currently work at JPMorgan Chase & Co.
         My focus, as a developer, is primarily on web applications, with a
@@ -63,8 +65,8 @@ export const About: React.FunctionComponent = () => {
         </span>{" "}
         to an absolutely unhealthy extent. In the time before covid-19, I might
         have said I enjoyed travel, and didn't do it nearly enough. If you'd
-        like to collaborate (or conspire, mwahaha) with me on something, check out my contact info
-        here.
+        like to collaborate (or conspire) with me on something, check out my contact info
+        <a href={"#contact-section"} className={classes.linkText}> here. </a>
       </p>
       <ImageModal
         isOpen={ladyOpen}
