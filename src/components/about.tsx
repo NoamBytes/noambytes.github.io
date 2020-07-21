@@ -39,7 +39,7 @@ export const About: React.FunctionComponent = () => {
     <div className={classes.root} id={"about-section"}>
       <h1 className={classes.header}>About Me</h1>
       <p className={classes.ptext}>
-        I'm your local friendly Brooklyner who happens to be a software
+        I'm your local friendly Brooklynite who happens to be a software
         engineer. I attended CUNY Brooklyn College and graduated in 2018 with a
         degree in Computer Science, and I currently work at JPMorgan Chase & Co.
         My focus, as a developer, is primarily on web applications, with a
