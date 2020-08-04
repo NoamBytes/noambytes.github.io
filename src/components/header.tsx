@@ -36,6 +36,7 @@ export const NavBar: React.FunctionComponent = () => {
                     </div>
                     <div className={classes.buttons}>
                         <Button href="#about-section" variant="text" color={"secondary"}>About</Button>
+                        <Button href="#projects-section" variant="text" color={"secondary"}>Projects</Button>
                         <Button href="#contact-section" variant="text" color={"secondary"}>Contact</Button>
                     </div>
                 </Toolbar>
