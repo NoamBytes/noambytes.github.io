@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24b1c376acc59f01b29c1899285b796b",
+    "revision": "6352500e9dbe65844893e47347fdb4f1",
     "url": "/index.html"
   },
   {
-    "revision": "267e734d08574c187957",
+    "revision": "a713ce42b84b3810fb64",
     "url": "/static/css/2.e3d0dd9d.chunk.css"
   },
   {
-    "revision": "2fb4fc1a527df3a47477",
+    "revision": "3fe3e73ea1db32b99db9",
     "url": "/static/css/main.6c049d84.chunk.css"
   },
   {
-    "revision": "267e734d08574c187957",
-    "url": "/static/js/2.a1fbbbd4.chunk.js"
+    "revision": "a713ce42b84b3810fb64",
+    "url": "/static/js/2.28ea0718.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.a1fbbbd4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.28ea0718.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fb4fc1a527df3a47477",
-    "url": "/static/js/main.9bc66ebe.chunk.js"
+    "revision": "3fe3e73ea1db32b99db9",
+    "url": "/static/js/main.2850bee4.chunk.js"
   },
   {
     "revision": "7d4a7932cfdcd47c370c",
     "url": "/static/js/runtime-main.0128b0c7.js"
+  },
+  {
+    "revision": "36e685d62936281d6921eb0557a7e604",
+    "url": "/static/media/FemFeed.36e685d6.png"
   },
   {
     "revision": "ba185a96539a08f072b5b68631dc6100",
@@ -34,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5cbad7693596d3fe4517902d0cb0d870",
     "url": "/static/media/Noam.5cbad769.svg"
+  },
+  {
+    "revision": "323216e99b4971e8b5b0b788b80cf3a9",
+    "url": "/static/media/Spotlist3.323216e9.png"
+  },
+  {
+    "revision": "18c1155b8787fa50fcdd76a2570b9f98",
+    "url": "/static/media/Vobia.18c1155b.png"
   },
   {
     "revision": "68af9c7a4a3405d6ee76be733f28c9c7",

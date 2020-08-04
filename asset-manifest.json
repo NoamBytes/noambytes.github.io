@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.6c049d84.chunk.css",
-    "main.js": "/static/js/main.9bc66ebe.chunk.js",
-    "main.js.map": "/static/js/main.9bc66ebe.chunk.js.map",
+    "main.js": "/static/js/main.2850bee4.chunk.js",
+    "main.js.map": "/static/js/main.2850bee4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0128b0c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.0128b0c7.js.map",
     "static/css/2.e3d0dd9d.chunk.css": "/static/css/2.e3d0dd9d.chunk.css",
-    "static/js/2.a1fbbbd4.chunk.js": "/static/js/2.a1fbbbd4.chunk.js",
-    "static/js/2.a1fbbbd4.chunk.js.map": "/static/js/2.a1fbbbd4.chunk.js.map",
+    "static/js/2.28ea0718.chunk.js": "/static/js/2.28ea0718.chunk.js",
+    "static/js/2.28ea0718.chunk.js.map": "/static/js/2.28ea0718.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d6bb0769d8de45d17bf31a69a5f61a39.js": "/precache-manifest.d6bb0769d8de45d17bf31a69a5f61a39.js",
+    "precache-manifest.6370ae8846f6565ebc9de5d5285d96ce.js": "/precache-manifest.6370ae8846f6565ebc9de5d5285d96ce.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e3d0dd9d.chunk.css.map": "/static/css/2.e3d0dd9d.chunk.css.map",
     "static/css/main.6c049d84.chunk.css.map": "/static/css/main.6c049d84.chunk.css.map",
-    "static/js/2.a1fbbbd4.chunk.js.LICENSE.txt": "/static/js/2.a1fbbbd4.chunk.js.LICENSE.txt",
+    "static/js/2.28ea0718.chunk.js.LICENSE.txt": "/static/js/2.28ea0718.chunk.js.LICENSE.txt",
+    "static/media/FemFeed.png": "/static/media/FemFeed.36e685d6.png",
     "static/media/LBB.png": "/static/media/LBB.ba185a96.png",
     "static/media/Noam.svg": "/static/media/Noam.5cbad769.svg",
+    "static/media/Spotlist3.png": "/static/media/Spotlist3.323216e9.png",
+    "static/media/Vobia.png": "/static/media/Vobia.18c1155b.png",
     "static/media/ZPB.png": "/static/media/ZPB.68af9c7a.png",
     "static/media/headshot.jpg": "/static/media/headshot.76a62d2c.jpg",
     "static/media/index.css": "/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
@@ -23,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.0128b0c7.js",
     "static/css/2.e3d0dd9d.chunk.css",
-    "static/js/2.a1fbbbd4.chunk.js",
+    "static/js/2.28ea0718.chunk.js",
     "static/css/main.6c049d84.chunk.css",
-    "static/js/main.9bc66ebe.chunk.js"
+    "static/js/main.2850bee4.chunk.js"
   ]
 }
