@@ -1,45 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
-import "fontsource-roboto";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import {
-  createMuiTheme,
-  ThemeProvider,
-  responsiveFontSizes
-} from "@material-ui/core/styles";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-let theme = createMuiTheme({
-  palette: {
-    primary: {
-      light: "#2c2c2c",
-      main: "#000000",
-      dark: "#000000",
-      contrastText: "#fff"
-    },
-    secondary: {
-      light: "#e6e5ff",
-      main: "#b3b3ee",
-      dark: "#8284bb",
-      contrastText: "#000"
-    }
-  }
-});
-theme = responsiveFontSizes(theme);
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(
   <React.StrictMode>
-    <CssBaseline />
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <App />
+  </React.StrictMode>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
